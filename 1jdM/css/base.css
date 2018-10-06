@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size:14px;
+    font-family:"Microsoft YaHei" sans-serif;
+    color:#333;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+input{
+    border:none;
+    outline:none;
+}
+ul,ol{
+    list-style: none;
+}
+.f_left{
+    float:left;
+}
+.f_right{
+    float:right;
+}
+.clearFloat::after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+}
+[class^="icon_"],[class*=" icon_"]{
+    background-repeat: no-repeat;
+    background-image: url("../images/sprites.png");
+    background-size: 200px 200px;
+}

@@ -1,0 +1,21 @@
+<?php 
+$data=[
+[
+"lgurl"=>"images/slide_01_2000x410.jpg",
+"xsurl"=>"images/slide_01_640x340.jpg"
+],
+[
+"lgurl"=>"images/slide_02_2000x410.jpg",
+"xsurl"=>"images/slide_02_640x340.jpg"
+],
+[
+"lgurl"=>"images/slide_03_2000x410.jpg",
+"xsurl"=>"images/slide_03_640x340.jpg"
+],
+[
+"lgurl"=>"images/slide_04_2000x410.jpg",
+"xsurl"=>"images/slide_04_640x340.jpg"
+]
+];
+header("Content-Type:application/json");
+echo json_encode($data);
